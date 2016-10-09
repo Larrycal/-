@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		464F161A1DAA392600AE2935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F16191DAA392600AE2935 /* main.m */; };
 		464F161D1DAA392600AE2935 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F161C1DAA392600AE2935 /* AppDelegate.m */; };
-		464F16201DAA392600AE2935 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F161F1DAA392600AE2935 /* ViewController.m */; };
 		464F16261DAA392600AE2935 /* _____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 464F16241DAA392600AE2935 /* _____.xcdatamodeld */; };
 		464F16281DAA392600AE2935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464F16271DAA392600AE2935 /* Assets.xcassets */; };
 		464F162B1DAA392600AE2935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464F16291DAA392600AE2935 /* LaunchScreen.storyboard */; };
+		464F16341DAA43E000AE2935 /* LaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F16331DAA43E000AE2935 /* LaTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		464F16191DAA392600AE2935 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		464F161B1DAA392600AE2935 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		464F161C1DAA392600AE2935 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		464F161E1DAA392600AE2935 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		464F161F1DAA392600AE2935 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		464F16251DAA392600AE2935 /* _____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____.xcdatamodel"; sourceTree = "<group>"; };
 		464F16271DAA392600AE2935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		464F162A1DAA392600AE2935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		464F162C1DAA392600AE2935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464F16321DAA43E000AE2935 /* LaTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaTabBarController.h; sourceTree = "<group>"; };
+		464F16331DAA43E000AE2935 /* LaTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				464F161B1DAA392600AE2935 /* AppDelegate.h */,
 				464F161C1DAA392600AE2935 /* AppDelegate.m */,
-				464F161E1DAA392600AE2935 /* ViewController.h */,
-				464F161F1DAA392600AE2935 /* ViewController.m */,
+				464F16321DAA43E000AE2935 /* LaTabBarController.h */,
+				464F16331DAA43E000AE2935 /* LaTabBarController.m */,
 				464F16181DAA392600AE2935 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -105,6 +105,7 @@
 		464F160D1DAA392600AE2935 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = La;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "柳钰柯";
 				TargetAttributes = {
@@ -150,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				464F16201DAA392600AE2935 /* ViewController.m in Sources */,
+				464F16341DAA43E000AE2935 /* LaTabBarController.m in Sources */,
 				464F16261DAA392600AE2935 /* _____.xcdatamodeld in Sources */,
 				464F161D1DAA392600AE2935 /* AppDelegate.m in Sources */,
 				464F161A1DAA392600AE2935 /* main.m in Sources */,

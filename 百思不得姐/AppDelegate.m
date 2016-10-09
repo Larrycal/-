@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "LaTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,11 @@
     self.window.frame = [UIScreen mainScreen].bounds;
     
     // 设置窗口的根控制器
-    self.window.rootViewController = [[ViewController alloc]init];
+    UITabBarController *tabBarController = [[LaTabBarController alloc] init];
+    
+    // 添加子控制器
+    
+    self.window.rootViewController = tabBarController;
     
     // 显示窗口
     [self.window makeKeyAndVisible];

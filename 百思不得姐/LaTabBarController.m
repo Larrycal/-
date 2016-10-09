@@ -1,25 +1,22 @@
 //
-//  ViewController.m
+//  LaTabBarController.m
 //  百思不得姐
 //
 //  Created by 柳钰柯 on 2016/10/9.
 //  Copyright © 2016年 柳钰柯. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LaTabBarController.h"
 
-@interface ViewController ()
+@interface LaTabBarController ()
 
 @end
 
-@implementation ViewController
+@implementation LaTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

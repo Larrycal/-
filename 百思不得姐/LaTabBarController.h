@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LaTabBarController.h
 //  百思不得姐
 //
 //  Created by 柳钰柯 on 2016/10/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LaTabBarController : UITabBarController
 
 @end
-
