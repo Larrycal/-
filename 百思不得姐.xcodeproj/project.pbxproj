@@ -13,6 +13,10 @@
 		464F16281DAA392600AE2935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464F16271DAA392600AE2935 /* Assets.xcassets */; };
 		464F162B1DAA392600AE2935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464F16291DAA392600AE2935 /* LaunchScreen.storyboard */; };
 		464F16341DAA43E000AE2935 /* LaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F16331DAA43E000AE2935 /* LaTabBarController.m */; };
+		464F16371DAB95CE00AE2935 /* LaEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F16361DAB95CE00AE2935 /* LaEssenceViewController.m */; };
+		464F163A1DAB95E000AE2935 /* LaFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F16391DAB95E000AE2935 /* LaFriendTrendsViewController.m */; };
+		464F16401DAB95F500AE2935 /* LaMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F163F1DAB95F500AE2935 /* LaMeViewController.m */; };
+		464F16431DAB964600AE2935 /* LaNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F16421DAB964600AE2935 /* LaNewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		464F162C1DAA392600AE2935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464F16321DAA43E000AE2935 /* LaTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaTabBarController.h; sourceTree = "<group>"; };
 		464F16331DAA43E000AE2935 /* LaTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaTabBarController.m; sourceTree = "<group>"; };
+		464F16351DAB95CE00AE2935 /* LaEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaEssenceViewController.h; sourceTree = "<group>"; };
+		464F16361DAB95CE00AE2935 /* LaEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaEssenceViewController.m; sourceTree = "<group>"; };
+		464F16381DAB95E000AE2935 /* LaFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaFriendTrendsViewController.h; sourceTree = "<group>"; };
+		464F16391DAB95E000AE2935 /* LaFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaFriendTrendsViewController.m; sourceTree = "<group>"; };
+		464F163E1DAB95F500AE2935 /* LaMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaMeViewController.h; sourceTree = "<group>"; };
+		464F163F1DAB95F500AE2935 /* LaMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaMeViewController.m; sourceTree = "<group>"; };
+		464F16411DAB964600AE2935 /* LaNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaNewViewController.h; sourceTree = "<group>"; };
+		464F16421DAB964600AE2935 /* LaNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaNewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				464F161C1DAA392600AE2935 /* AppDelegate.m */,
 				464F16321DAA43E000AE2935 /* LaTabBarController.h */,
 				464F16331DAA43E000AE2935 /* LaTabBarController.m */,
+				464F16351DAB95CE00AE2935 /* LaEssenceViewController.h */,
+				464F16361DAB95CE00AE2935 /* LaEssenceViewController.m */,
+				464F16411DAB964600AE2935 /* LaNewViewController.h */,
+				464F16421DAB964600AE2935 /* LaNewViewController.m */,
+				464F16381DAB95E000AE2935 /* LaFriendTrendsViewController.h */,
+				464F16391DAB95E000AE2935 /* LaFriendTrendsViewController.m */,
+				464F163E1DAB95F500AE2935 /* LaMeViewController.h */,
+				464F163F1DAB95F500AE2935 /* LaMeViewController.m */,
 				464F16181DAA392600AE2935 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -152,8 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				464F16341DAA43E000AE2935 /* LaTabBarController.m in Sources */,
+				464F163A1DAB95E000AE2935 /* LaFriendTrendsViewController.m in Sources */,
 				464F16261DAA392600AE2935 /* _____.xcdatamodeld in Sources */,
+				464F16371DAB95CE00AE2935 /* LaEssenceViewController.m in Sources */,
+				464F16401DAB95F500AE2935 /* LaMeViewController.m in Sources */,
 				464F161D1DAA392600AE2935 /* AppDelegate.m in Sources */,
+				464F16431DAB964600AE2935 /* LaNewViewController.m in Sources */,
 				464F161A1DAA392600AE2935 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +327,7 @@
 				464F16311DAA392600AE2935 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
