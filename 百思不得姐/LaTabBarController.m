@@ -11,6 +11,7 @@
 #import "LaNewViewController.h"
 #import "LaFriendTrendsViewController.h"
 #import "LaEssenceViewController.h"
+#import "LaTabBar.h"
 
 @interface LaTabBarController ()
 
@@ -44,6 +45,9 @@
     
     UIViewController *vc4 = [[LaMeViewController alloc]init];
     [self setUpChildVC:vc4 Title:@"我的" Image:@"tabBar_me_icon" SelectImage:@"tabBar_me_click_icon"];
+    
+    // 更换TabBar
+    [self setValue:[[LaTabBar alloc]init] forKeyPath:@"tabBar"];
 }
 
 /**
