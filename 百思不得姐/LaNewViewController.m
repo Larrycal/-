@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 设置导航栏内容
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    
+    // 设置左边按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithNormalImage:@"MainTagSubIcon" HighlightImage:@"MainTagSubIconClick" Action:@selector(tagClick) Target:self];
+}
+
+- (void)tagClick{
+    LaLog(@"%s",__func__);
 }
 
 

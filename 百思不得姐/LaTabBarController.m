@@ -41,7 +41,7 @@
     [self setUpChildVC:vc2 Title:@"新帖" Image:@"tabBar_new_icon" SelectImage:@"tabBar_new_click_icon"];
     
     UIViewController *vc3 = [[LaFriendTrendsViewController alloc]init];
-    [self setUpChildVC:vc3 Title:@"朋友" Image:@"tabBar_friendTrends_icon" SelectImage:@"tabBar_friendTrends_click_icon"];
+    [self setUpChildVC:vc3 Title:@"我的关注" Image:@"tabBar_friendTrends_icon" SelectImage:@"tabBar_friendTrends_click_icon"];
     
     UIViewController *vc4 = [[LaMeViewController alloc]init];
     [self setUpChildVC:vc4 Title:@"我的" Image:@"tabBar_me_icon" SelectImage:@"tabBar_me_click_icon"];
@@ -53,13 +53,17 @@
 /**
  * 添加子控制器
  */
-
 - (void)setUpChildVC:(UIViewController *)vc Title:(NSString *)title Image:(NSString *)image SelectImage:(NSString *)selectImage{
+    vc.navigationItem.title = title;
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectImage];
     vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
-    [self addChildViewController:vc];
+    
+    // 包装导航控制器,添加导航控制器为tabBarController的子控制器
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [self addChildViewController:navigationController];
 }
 
 

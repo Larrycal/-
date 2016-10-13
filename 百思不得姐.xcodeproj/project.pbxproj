@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46194B031DAF7AA9007B9260 /* UIBarButtonItem+LaExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46194B021DAF7AA9007B9260 /* UIBarButtonItem+LaExtension.m */; };
 		464F161A1DAA392600AE2935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F16191DAA392600AE2935 /* main.m */; };
 		464F161D1DAA392600AE2935 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 464F161C1DAA392600AE2935 /* AppDelegate.m */; };
 		464F16261DAA392600AE2935 /* _____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 464F16241DAA392600AE2935 /* _____.xcdatamodeld */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46194B011DAF7AA9007B9260 /* UIBarButtonItem+LaExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LaExtension.h"; sourceTree = "<group>"; };
+		46194B021DAF7AA9007B9260 /* UIBarButtonItem+LaExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LaExtension.m"; sourceTree = "<group>"; };
 		464F16151DAA392600AE2935 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		464F16191DAA392600AE2935 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		464F161B1DAA392600AE2935 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				468339A41DADD2B300165844 /* Header.h */,
 				468339A11DADD26500165844 /* UIView+LaExtension.h */,
 				468339A21DADD26500165844 /* UIView+LaExtension.m */,
+				46194B011DAF7AA9007B9260 /* UIBarButtonItem+LaExtension.h */,
+				46194B021DAF7AA9007B9260 /* UIBarButtonItem+LaExtension.m */,
 				464F16181DAA392600AE2935 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -188,6 +193,7 @@
 				464F163A1DAB95E000AE2935 /* LaFriendTrendsViewController.m in Sources */,
 				468339A31DADD26500165844 /* UIView+LaExtension.m in Sources */,
 				464F16261DAA392600AE2935 /* _____.xcdatamodeld in Sources */,
+				46194B031DAF7AA9007B9260 /* UIBarButtonItem+LaExtension.m in Sources */,
 				464F16371DAB95CE00AE2935 /* LaEssenceViewController.m in Sources */,
 				464F16401DAB95F500AE2935 /* LaMeViewController.m in Sources */,
 				464F161D1DAA392600AE2935 /* AppDelegate.m in Sources */,

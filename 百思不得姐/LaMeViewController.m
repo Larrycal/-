@@ -16,22 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 设置导航栏内容
+    self.navigationItem.title = @"我的";
+    
+    // 添加两个按钮,先添加的在右边
+    self.navigationItem.rightBarButtonItems = @[
+                                                [UIBarButtonItem itemWithNormalImage:@"mine-setting-icon" HighlightImage:@"mine-setting-icon-click" Action:@selector(settingClick) Target:self],// 设置按钮
+                                                [UIBarButtonItem itemWithNormalImage:@"mine-moon-icon" HighlightImage:@"mine-moon-icon-click" Action:@selector(moonClick) Target:self] // 月亮按钮
+                                                ];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)settingClick{
+    LaLogFunc;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)moonClick{
+    LaLogFunc;
 }
-*/
 
 @end

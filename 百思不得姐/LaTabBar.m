@@ -21,6 +21,7 @@
         UIButton *publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
+        publishButton.size = publishButton.currentBackgroundImage.size;
         [self addSubview:publishButton];
         self.publishButton = publishButton;
     }
@@ -34,8 +35,6 @@
     CGFloat height = self.height;
     
     // 设置发布按钮frame
-    self.publishButton.width = self.publishButton.currentBackgroundImage.size.width;
-    self.publishButton.height = self.publishButton.currentBackgroundImage.size.height;
     self.publishButton.center = CGPointMake(width * 0.5, height * 0.5);
     
     CGFloat buttonY = 0;

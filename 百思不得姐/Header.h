@@ -10,5 +10,14 @@
 #define Header_h
 
 #import "UIView+LaExtension.h"
+#import "UIBarButtonItem+LaExtension.h"
+
+#ifdef DEBUG
+#define LaLog(...) NSLog(__VA_ARGS__)
+#else
+#define LaLog(...)  
+#endif
+
+#define LaLogFunc  LaLog(@"%s",__func__)
 
 #endif /* Header_h */
