@@ -26,6 +26,9 @@
                                                 [UIBarButtonItem itemWithNormalImage:@"mine-moon-icon" HighlightImage:@"mine-moon-icon-click" Action:@selector(moonClick) Target:self] // 月亮按钮
                                                 ];
     
+    // 设置背景色
+    self.view.backgroundColor = LaGlobalBg;
+     LaLogFunc;
 }
 
 - (void)settingClick{

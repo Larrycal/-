@@ -215,13 +215,13 @@
 		46194B581DAF8524007B9260 /* Other-其他 */ = {
 			isa = PBXGroup;
 			children = (
-				46194B591DAF8524007B9260 /* AppDelegate.h */,
-				46194B5A1DAF8524007B9260 /* AppDelegate.m */,
 				46194B5B1DAF8524007B9260 /* Category */,
 				46194B601DAF8524007B9260 /* Controller */,
+				46194B651DAF8524007B9260 /* View */,
+				46194B591DAF8524007B9260 /* AppDelegate.h */,
+				46194B5A1DAF8524007B9260 /* AppDelegate.m */,
 				46194B631DAF8524007B9260 /* Header.h */,
 				46194B641DAF8524007B9260 /* main.m */,
-				46194B651DAF8524007B9260 /* View */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
