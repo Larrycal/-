@@ -20,8 +20,8 @@
 
 @implementation LaTabBarController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
++ (void)initialize{
+    
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
     attrs[NSForegroundColorAttributeName] = [UIColor grayColor];
@@ -33,6 +33,11 @@
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:selectAttrs forState:UIControlStateSelected];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
     
     // 添加子控制器
     UIViewController *vc1 = [[LaEssenceViewController alloc]init];
@@ -64,7 +69,6 @@
     LaNavigationController *navigationController = [[LaNavigationController alloc] initWithRootViewController:vc];
     
     // 设置导航栏颜色
-    [navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
     [self addChildViewController:navigationController];
 }
 

@@ -14,17 +14,31 @@
 
 @implementation LaNavigationController
 
+/**
+ 当第一次使用这个类的时候会调用一次
+ */
++ (void)initialize{
+    
+    // 当导航栏用在LaNavigationController中才会生效
+//    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedIn:[self class], nil];
+    
+    UINavigationBar *bar = [UINavigationBar appearance];
+    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 使用这个会进行四次加载
+//    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
     
 }
 
 
 /**
  * 在这里拦截UINavigation的push方法
-
- @param viewController 推进去的VC
- @param animated       动画
+ *
+ * @param viewController 推进去的VC
+ * @param animated       动画
  */
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     
