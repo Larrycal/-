@@ -12,6 +12,7 @@
 #import "LaFriendTrendsViewController.h"
 #import "LaEssenceViewController.h"
 #import "LaTabBar.h"
+#import "LaNavigationController.h"
 
 @interface LaTabBarController ()
 
@@ -60,7 +61,7 @@
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectImage];
     
     // 包装导航控制器,添加导航控制器为tabBarController的子控制器
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    LaNavigationController *navigationController = [[LaNavigationController alloc] initWithRootViewController:vc];
     
     // 设置导航栏颜色
     [navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];

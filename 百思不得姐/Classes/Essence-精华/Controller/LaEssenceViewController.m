@@ -33,4 +33,10 @@
     LaLog(@"%s",__func__);
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    UIViewController *vc = [[UIViewController alloc]init];
+    vc.view.backgroundColor = LaRGBColor(100, 200, 50);
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 @end

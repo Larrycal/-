@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46032FB21DB0C5C2004279D1 /* LaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46032FB11DB0C5C2004279D1 /* LaNavigationController.m */; };
 		46194B681DAF8524007B9260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46194B381DAF8524007B9260 /* Assets.xcassets */; };
 		46194B6B1DAF8524007B9260 /* LaEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46194B431DAF8524007B9260 /* LaEssenceViewController.m */; };
 		46194B6C1DAF8524007B9260 /* LaFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46194B491DAF8524007B9260 /* LaFriendTrendsViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46032FB01DB0C5C2004279D1 /* LaNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaNavigationController.h; sourceTree = "<group>"; };
+		46032FB11DB0C5C2004279D1 /* LaNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaNavigationController.m; sourceTree = "<group>"; };
 		46194B381DAF8524007B9260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46194B3A1DAF8524007B9260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; name = Base; path = "Base.lproj/_____.xcdatamodeld"; sourceTree = "<group>"; };
 		46194B3C1DAF8524007B9260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
@@ -242,6 +245,8 @@
 			children = (
 				46194B611DAF8524007B9260 /* LaTabBarController.h */,
 				46194B621DAF8524007B9260 /* LaTabBarController.m */,
+				46032FB01DB0C5C2004279D1 /* LaNavigationController.h */,
+				46032FB11DB0C5C2004279D1 /* LaNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -359,6 +364,7 @@
 				46194B6E1DAF8524007B9260 /* LaNewViewController.m in Sources */,
 				46194B721DAF8524007B9260 /* LaTabBarController.m in Sources */,
 				46194B701DAF8524007B9260 /* UIBarButtonItem+LaExtension.m in Sources */,
+				46032FB21DB0C5C2004279D1 /* LaNavigationController.m in Sources */,
 				46194B741DAF8524007B9260 /* LaTabBar.m in Sources */,
 				46194B6D1DAF8524007B9260 /* LaMeViewController.m in Sources */,
 				46194B731DAF8524007B9260 /* main.m in Sources */,
